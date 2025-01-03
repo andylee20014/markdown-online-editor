@@ -4,7 +4,7 @@
   <section class="header-wrapper">
     <h1 class="header-area">
       <a
-        href="https://markdown.lovejade.cn/?ref=markdown.lovejade.cn&pid=main-title"
+        href="/"
         class="header-link"
       >
         <img class="mark-markdown" src="@assets/images/markdown.png" alt="在线 Markdown 编辑器" />
@@ -52,7 +52,7 @@
                 exportTextMap['/export/ppt']
               }}</a>
             </el-dropdown-item>
-            <el-dropdown-item command="/export/html" divided>
+            <el-dropdown-item command="/export/html" disabled divided>
               <icon class="dropdown-icon" name="download" />
               <a href="/export/html" target="_self" class="dropdown-text">导出 HTML</a>
             </el-dropdown-item>
